@@ -1,0 +1,21 @@
+
+# Remove all files ending with the following.
+
+*.iml
+*.idea/
+*.bat
+*.properties
+*.gradle
+*.externalNativeBuild
+*.pro
+# Remove all the folders.
+
+/gradlew
+/gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+

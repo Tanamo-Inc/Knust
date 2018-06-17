@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Knust</string>
+    <string name="search">Search</string>
+    <string name="colleges">Colleges</string>
+    <string name="department">Department</string>
+    <string name="kwame_nkrumah_university_of_science_and_technology_knust_kumasi">Kwame Nkrumah University Of Science And Technology(KNUST),Kumasi.</string>
+    <string name="by_tanamo_inc">by Tanamo Inc....</string>
+    <string name="coa">College Of Arts</string>
+    <string name="cos">College Of Science</string>
+    <string name="coag">College Of Agriculture</string>
+    <string name="coe">College Of Engineering</string>
+    <string name="coh">College Of Health Sciences</string>
+    <string name="coss">College Of Social Sciences</string>
+
+
+</resources>
