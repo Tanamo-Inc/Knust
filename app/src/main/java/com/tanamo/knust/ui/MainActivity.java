@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 
 import com.tanamo.knust.R;
@@ -14,7 +15,9 @@ import com.tanamo.knust.frag.Fragment_Main;
 import java.util.ArrayList;
 import java.util.List;
 
+// This my Main Class.
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
     // Initialize Method.
     private void init() {
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         ViewPager vp = findViewById(R.id.viewpager);
         setupViewPager(vp);
@@ -78,11 +84,6 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu, menu);
         return true;
     }
-
-
-
-
-
 
 
 }

@@ -10,6 +10,8 @@ import android.view.WindowManager;
 
 import com.tanamo.knust.R;
 
+
+// This is my launcher class.
 public class Flash extends AppCompatActivity {
 
     @Override

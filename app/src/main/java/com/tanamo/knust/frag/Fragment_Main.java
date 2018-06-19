@@ -17,6 +17,7 @@ import com.tanamo.knust.model.Mod;
 
 import java.util.ArrayList;
 
+// This my Main Fragment Class.
 
 public class Fragment_Main extends Fragment {
 
@@ -67,6 +68,7 @@ public class Fragment_Main extends Fragment {
     }
 
 
+    // Colleges Title.
     private void ArrayTitle() {
         myTitle.add(getString(R.string.coa));
         myTitle.add(getString(R.string.cos));
